@@ -11,6 +11,7 @@ gem 'sinatra-activerecord'
 gem 'sinatra-flash'               # Sinatra flash capability.
 gem 'sinatra-redirect-with-flash'
 
+gem 'foreman'
 gem 'rake'
 
 group :development, :test do
@@ -24,4 +25,3 @@ group :development, :test do
   gem 'factory_girl'              # Test tool for factories.
   gem 'rspec'                     # Ruby testing framework.
 end
-
