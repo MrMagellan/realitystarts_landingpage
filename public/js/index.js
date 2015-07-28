@@ -12,13 +12,13 @@ $(document).ready(function() {
 
   $('#target').submit(function(event) {
     event.preventDefault();
+    console.log("THIS WORKS")
     $('.btn.btn-primary.btn-lg.btn-block').hide();   
     $('.form-control.email-field').hide(); 
     $('.success-text').show();
     $('.form-group').css("@media (max-width:768px){ .form-group{ height: 135px;}}")
     $('.form-group').css("height", "100px");
 
-    $('.preview-text').hide();
     postToGoogle();
 
   });

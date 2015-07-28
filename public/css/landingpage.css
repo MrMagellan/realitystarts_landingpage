@@ -44,13 +44,16 @@ h1{
 
   padding-top: 15px;
   text-align: center;
+  padding-bottom: 15px;
 
 }
 
 .btn.btn-primary.btn-lg.btn-block{
   padding-top: 5px;
   width: 200px;
-  background-color: #1d3a59  
+  background-color: #1d3a59;
+  vertical-align: middle;
+
 
 }
 
@@ -65,6 +68,16 @@ h1{
     width: 48%;
     margin: 0 auto;
 
+}
+
+.copyright.text-muted.small{
+  padding-top: 50px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.success-text {
+  text-align: center
 }
 
 
@@ -87,8 +100,6 @@ textarea:focus, input:focus, .uneditable-input:focus {
       width: 70%;
       height: 70%;
       margin: 0 auto;
-
-
     }
 
 

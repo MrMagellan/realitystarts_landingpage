@@ -37,6 +37,7 @@ module AppName
 
     # ==> Render index page.
     get '/' do
+      js  'index'
       erb :index
     end
 
