@@ -42,7 +42,7 @@ h1{
 
 .intro-text {
 
-  padding-top: 15px;
+  padding-top: 50px;
   text-align: center;
   padding-bottom: 15px;
 
@@ -89,7 +89,6 @@ textarea:focus, input:focus, .uneditable-input:focus {
 
 /* CSS for Mobile optimization */
 @media(max-width:768px) {
-
 
     p {
       font-size: 20px;
